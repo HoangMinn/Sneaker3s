@@ -1,0 +1,590 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #111111;
+}
+div#logo{
+	float: left;
+	margin-left: 50px;
+}
+div#logo img:hover{
+	cursor: pointer;
+}
+div#logo img{
+	margin-top: 10px;
+}
+div#dn{
+	float: right;
+	color: #f1f1f1;
+	margin-right: 50px;
+	margin-top: 70px;
+}
+div#dn a{
+	font-weight: bold;
+	color: #f1f1f1;
+	font-size: 14px;
+	text-decoration: none;
+}
+header div#dn a:hover{
+	color: #900;
+}
+header div#fom form{
+	float: left;
+	margin-left: 260px;
+	margin-top: 30px;
+}
+nav{
+	width: 100%;
+	height: 40px;
+	background-color: #111111;
+}
+nav a{
+	color: #FFFFFF;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	font-size: 14px;
+}
+nav a#danhmuc{
+	color: #FFFFFF;
+	width: 160px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	font-size: 14px;
+	margin-left: 50px;
+}
+nav a#menu{
+	margin-left: 150px;
+}
+.menu:hover{
+	color: red;
+}
+aside,section{
+	display: table-cell;
+	vertical-align: top;
+	clear: both;
+}
+aside{
+	width: 30%;
+}
+section{
+	width: 70%;
+}
+div#danhmuc{
+	margin-left: 50px;
+}
+div#danhmuc ul{
+  background: #f1f1f1;
+  width:150px;
+  padding:0;
+  list-style-type: none;
+}
+div#danhmuc ul li{
+  width: auto;
+  height:40px;
+  line-height:40px;
+  border-bottom: 1px solid red;
+  padding: 0 1em;
+  position: relative;
+}
+div#danhmuc ul li a{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+div#danhmuc ul li a:hover{
+  color: red;
+}
+.submenu{
+  position: absolute;
+  left: 150px;
+  top: 0px;
+  display: none;
+}
+div#danhmuc ul li:hover .submenu{
+  display:block;
+}
+section img{
+	margin-left: 15px;
+}
+article{
+	background-color: #111111;
+}
+.hinhanh{
+	width: 220px;
+	height: 200px;
+	float: left;
+	margin: 50px;
+}
+.sanpham{
+	width: 230px;
+	height: 250px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 75px;
+	background-color: #FFF;
+}
+.sanpham p{
+	color: #00F;
+	text-align: center;
+	margin: 0px;
+	font-size: 20px;
+}
+div#nen{
+	background-color: #111111;
+	height: 500px;
+}
+.sanpham a{
+	text-decoration: none;
+	color: #f1f1f1;
+	text-align: center;
+}
+.giacu{
+	text-align: center;
+	color: #f1f1f1;
+}
+.giaban{
+	text-align: center;
+	color: red;
+}
+.tensp{
+	text-align: center;
+}
+.sanpham a:hover{
+	color: red;
+}
+div#left{
+	float: left;
+	width: 190px;
+	margin-left: 150px;
+}
+div#mid{
+	float: left;
+	width: 200px;
+	margin-left: 200px;
+}
+div#right{
+	float: left;
+	width: 190px;
+	margin-left: 200px;
+}
+footer{
+	height:200px;
+	background-color: #444444;
+}
+footer div ul li{
+	color: #f1f1f1;
+	font-size: 20px;
+	line-height: 30px;
+}
+footer div ul a:hover{
+	color: red;
+}
+footer div ul{
+	list-style: none;
+}
+footer div ul a{
+	text-decoration: none;
+}
+footer hr{
+	clear: both;
+}
+footer p{
+	color: #f1f1f1;
+	text-align: center;
+}
+footer div#right img{
+	margin-top: 20px;
+}
+footer ul li:hover{
+	color: red;
+}
+.tintuc{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+.tintuc:hover{
+	color: red;
+}
+.vanban{
+	margin-left: 20px;
+}
+.anh:hover{
+	cursor: pointer;
+}
+p#tieude{
+	text-align: center;
+	font-size: 40px;
+	color: #f1f1f1;
+	margin-bottom: -40px;
+}
+.ke{
+	margin-left: 390px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.ke2{
+	margin-left: 330px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.ke3{
+	margin-left: 390px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+div#nen2{
+	background-color: #111111;
+	height: 500px;
+}
+div#tintuc{
+	height: 500px;
+	width: 1200px;
+	color: #f1f1f1;
+	margin-top: 40px;
+	clear:both;
+}
+div#tintucleft{
+	width: 49.5%;
+	height: 100%;
+	float: left;
+}
+div#tintucright{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.hinh{
+	width: 30%;
+	height: 33%;
+	float: left;
+}
+.vb{
+	width: 69%;
+	float: left;
+	height: 33%;
+	font-size: 18px;
+}
+.vban{
+	font-family: sans-serif;
+}
+.ttuc{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+div#tintucleft iframe{
+	margin-left: 40px;
+}
+/*JS*/
+#anh{
+	width:850px;
+	height:315px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+#anh #previous{
+	position:absolute;
+	top:120px;
+	left:0px;
+	width:28px;
+	height:44px;
+	display:none;
+}
+#anh #next{
+	position:absolute;
+	top:120px;
+	right:50px;
+	width:28px;
+	height:44px;
+	display:none;
+}
+#anh:hover #previous{
+	display:block;
+	opacity:0.6;
+}
+#anh:hover #next{
+	display:block;
+	opacity:0.6;
+}
+/*tintucright*/
+.lk{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+.lk:hover{
+	color: red;
+}
+/*anhdong*/
+.dong:hover{
+	transform: scale(1.1);
+}
+.dong{
+	margin-bottom: 10px;
+	transition: all 0.5s;
+}
+.dong2{
+	margin-top: 10px;
+}
+div#khungtintuc{
+	width: 100%;
+	height:auto;
+	clear:both;
+}
+/*DANGNHAP*/
+div#dangnhap{
+	width:1200px;
+	height:500px;
+	border: 1 px solid blue;
+}
+div#dangnhap table{
+	margin-top:100px;
+	margin-left:340px;
+	color: #f1f1f1;
+	border:1px solid white;
+}
+.tendn{
+	text-align:center;
+}
+.vbdn{
+	width:200px;
+	height:30px;
+	font-size:18px;
+	padding-right:20px;
+}
+.nut{
+	width:100px;
+	height:50px;
+	margin-left:220px;
+}
+div#dangnhap table tr td#qmk{
+	padding-left:160px;
+}
+div#dangnhap table tr td#dkn{
+	padding-left:20px;
+}
+.nut:hover{
+	cursor:pointer;
+	color:#F00;
+}
+div#dangnhap table tr td a{
+	color:#f1f1f1;
+	text-decoration:none;
+}
+div#dangnhap table tr td a:hover{
+	color:red;
+}
+/*DANGKY*/
+div#dangky table{
+	margin-top:100px;
+	margin-left:340px;
+	color:#f1f1f1;
+	border:1px solid white;
+}
+div#dangky table tr td input#namsinh{
+	width:40px;
+}
+.cot2{
+	width:200px;
+	height:30px;
+	font-size:18px;
+}
+.ht{
+	text-align:center;
+}
+.nutdk{
+	width:100px;
+	height:50px;
+	margin-left:230px;
+}
+.nutdk:hover{
+	cursor:pointer;
+	color:#F00;
+}
+/*THONG TIN TUNG SAN PHAM*/
+div#khung{
+	height:550px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:30px;
+}
+div#anhsp{
+	width:50%;
+	height:100%;
+	float:left;
+
+}
+div#thongtinsp{
+	width:49.5%;
+	height:100%;
+	float:left;
+
+}
+div#thongtinsp table{
+	color:#f1f1f1;
+	font:18px;
+}
+div#anhsp{
+	color:#f1f1f1;
+}
+div#anhsp p{
+	margin-top:10px;
+	border-bottom:1px dotted white;
+	font-family:san-serif;
+}
+div#demuc{
+	height:40px;
+	color: #f1f1f1;
+	margin-top:20px;
+}
+div#demuc p{
+	margin-left:50px;
+	margin-bottom:5px;
+}
+div#demuc a{
+	color:#f1f1f1;
+	text-decoration:none;
+}
+div#demuc a:hover{
+	color:red;
+}
+div#thongtinsp table tr td p#tt{
+	margin-left:20px;
+}
+div#thongtinsp table tr td p{
+	margin-bottom:5px;
+}
+.email{
+}
+.ipemail{
+	width:200px;
+	height:30px;
+}
+div#thongtinsp table tr td input#dathang{
+	margin-left:200px;
+	width:100px;
+	height:30px;
+}
+div#thongtinsp table tr td input#dathang:hover{
+	cursor:pointer;
+	color:red;
+}
+.spa{
+	color:red;
+	font-size:18px;
+}
+/*TRANGSANPHAM1*/
+div#trangsp{
+	height: 1000px;
+	border-bottom:1px solid #FFF;
+}
+.ke4{
+	margin-left: 450px;
+	margin-top:40px;
+	margin-bottom: 10px;
+}
+div#khungsp{
+	width:250px;
+	height:300px;
+}
+.sanpham{
+	margin-bottom:50px;
+}
+div#trangsp table{
+	color:black;
+	margin-left:500px;
+	padding-top:100px;
+	text-align:center;
+}
+div#trangsp table tr td{
+	background-color:#f1f1f1;
+}
+div#trangsp table tr a{
+	text-decoration:none;
+	color:#000;
+}
+div#trangsp table tr td:hover{
+	background-color:#0CC;
+	cursor:pointer;
+}
+.dong:hover{
+	cursor:pointer;
+}
+div#gt{
+	height: 300px;
+	border-bottom:1px solid #FFF;
+}
+div#gt p#gthieu{
+	color: #f1f1f1;
+	line-height:30px;
+	padding-top:20px;
+	margin-left:20px;
+}
+div#lh{
+	height: 500px;
+	color:#f1f1f1;
+	font-family:san-serif;
+	border-bottom:1px solid #FFF;
+}
+div#lh div#gtleft{
+	width:50%;
+	height:400px;
+	float:left;
+}
+div#lh div#gtright{
+	width:49.5%;
+	height:400px;
+	float:left;
+}
+div#lh div#gtleft p#sneak{
+	font-size:20px;
+	margin-left:30px;
+	font-weight:bold;
+}
+div#lh div#gtleft p{
+	margin-left:30px;
+	line-height:40px;
+}
+.lh{
+	width:500px;
+	height:30px;
+}
+.lhnd{
+	width:500px;
+	height:50px;
+}
+.nutsb{
+	background-color:red;
+	border-radius:5px;
+	color: white;
+	width:70px;
+	height:30px;
+}
+.nutsb:hover{
+	cursor:pointer;
+}
+
+
+
+

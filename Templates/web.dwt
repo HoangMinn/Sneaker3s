@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Sneaker Shop</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<script src="../js/slider.js"></script>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+    	<div id="logo">
+			<img src="../img/logo.png" width="135" height="85">
+		</div>
+    	<div id="dn">
+            <img src="../img/dangnhap.jpg" width="15" height="15">
+	        <a href="../Dangnhap.html">ĐĂNG NHẬP</a>,
+	        <a href="../Dangky.html">ĐĂNG KÝ</a>
+            <img src="../img/xehang.gif" width="15" height="15">
+	        <a href="#">GIỎ HÀNG</a>
+    	</div>
+	</header>
+	<nav>
+	<!-- TemplateBeginEditable name="nd=" -->
+		<a href="#" id="danhmuc">DANH MỤC SẢN PHẨM</a>
+		<a href="Trangchu.html" class="menu" id="menu">TRANG CHỦ</a>
+		<a href="gioithieu.html" class="menu">GIỚI THIỆU</a>
+		<a href="sanpham.html" class="menu">SẢN PHẨM</a>
+		<a href="#" class="menu">SALE OFF</a>
+		<a href="#" class="menu">TIN TỨC</a>
+		<a href="#" class="menu">LIÊN HỆ</a>
+    <!-- TemplateEndEditable -->
+	</nav>
+	<article>
+		<aside>
+		<!-- TemplateBeginEditable name="ha" -->
+			<div id="danhmuc">
+			    <ul>
+				    <li>
+				    	<a href="#">ADIDAS</a>
+					    <ul class="submenu">
+					    	<li><a href="#">PROPHERE</a></li>
+					        <li><a href="#">STANSMIDTH</a></li>
+					        <li><a href="#">YEEZY</a></li>
+					    </ul>			    	
+				    </li>
+				    <li>
+				        <a href="#">NIKE</a>
+				        <ul class="submenu">
+					        <li><a href="#">AIR MAX 97</a></li>
+					        <li><a href="#">AIR FORCE F1</a></li>
+					        <li><a href="#">UPTEMPO</a></li>
+				        </ul>
+				    </li>
+				    <li>
+				        <a href="#">LUXURY</a>
+				        <ul class="submenu">
+					        <li><a href="#">BALENCIAGA</a></li>
+					        <li><a href="#">GUCCI</a></li>
+					        <li><a href="#">MCQUEEN</a></li>
+				        </ul>
+				    </li>
+				    <li><a href="#">VANS</a></li>
+				    <li><a href="#">CONVERSE</a></li>
+			    </ul>
+			</div>
+        <!-- TemplateEndEditable -->
+		</aside>
+		<section>
+		<!-- TemplateBeginEditable name="slider" -->
+			<div id="anh">
+			<a href="#"><img id="hinhslider" src="../slider/1.jpg" width="800" height="350"></a>
+		    <div id="previous"><img src="../slider/prev.png" width="28" height="44" onclick="back()"></div>
+		    <div id="next"><img src="../slider/next.png" width="28" height="44" onclick="next()"></div>
+			</div>
+        <!-- TemplateEndEditable -->
+		</section>
+		<!-- TemplateBeginEditable name="sp" -->
+		<div id="nen">
+			<hr class="ke" width="35%"><p id="tieude">SẢN PHẨM NỔI BẬT</p><hr class="ke" width="35%">
+			<div class="sanpham">
+            	<img class="dong" src="../img/giay001.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">Yeezy 700 Magnet Best Quality</a></p>
+                <p class="gia">
+                    <del class="giacu">3.000.000đ</del><br>
+                    <span class="giaban">2.000.000đ</span>
+                </p>
+			</div>
+			<div class="sanpham">
+				<img class="dong" src="../img/giay002.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">Air force 1 Shadow Multicolor</a></p>
+                <p class="gia">
+                    <del class="giacu">1.500.000đ</del><br>
+                    <span class="giaban">1.200.000đ</span>
+                </p>				
+			</div>
+			<div class="sanpham">
+				<img class="dong" src="../img/giay003.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">Air max 270 React Bauhaus</a></p>
+                <p class="gia">
+                    <del class="giacu">1.500.000 VNĐ</del><br>
+                    <span class="giaban">1.200.000 VNĐ</span>
+                </p>				
+			</div>
+			<div class="sanpham">
+				<img class="dong" src="../img/giay004.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">Alpha Bounce Beyond M Grey</a></p>
+                <p class="gia">
+                    <del class="giacu">1.500.000 VNĐ</del><br>
+                    <span class="giaban">1.200.000 VNĐ</span>
+                </p>				
+			</div>
+		</div>
+		<div id="nen2">
+			<hr class="ke2" width="45%"><p id="tieude">BÁN CHẠY TRONG TUẦN</p><hr class="ke2" width="45%">
+			<div class="sanpham">
+				<img class="dong" src="../img/giay0081.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">Adidas Alphabounce Beyond Full Trắng 2018</a></p>
+                <p class="gia">
+                    <del class="giacu">1.500.000 VNĐ</del><br>
+                    <span class="giaban">1.200.000 VNĐ</span>
+                </p>				
+			</div>
+			<div class="sanpham">
+				<img class="dong" src="../img/giay0091.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">Nike Air Force 1 Mid Supreme NBA White</a></p>
+                <p class="gia">
+                    <del class="giacu">1.200.000 VNĐ</del><br>
+                    <span class="giaban">950.000 VNĐ</span>
+                </p>				
+			</div>
+			<div class="sanpham">
+				<img class="dong" src="../img/giay0101.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">Yeezy 350 V2 Clay Replcia 1:1</a></p>
+                <p class="gia">
+                    <del class="giacu">1.200,000 VNĐ</del><br>
+                    <span class="giaban">950.000 VNĐ</span>
+                </p>				
+			</div>
+			<div class="sanpham">
+				<img class="dong" src="../img/giay0111.jpg" width="250" height="250">
+				<p class="tensp"><a class="dong2" href="#">BALENCIAGA TRACK HỒNG REPLICA 1:1</a></p>
+                <p class="gia">
+                    <del class="giacu">4.500.000 VNĐ</del><br>
+                    <span class="giaban">4.000.000 VNĐ</span>
+                </p>				
+			</div>
+		</div>
+        <!-- TemplateEndEditable -->
+        <div id="khungtintuc">
+		<hr class="ke3" width="35%"><p id="tieude">TIN TỨC - SỰ KIỆN</p><hr class="ke3" width="35%">
+		<div id="tintuc">
+			<div id="tintucleft">
+				<iframe width="500" height="400" src="https://www.youtube.com/embed/174Fg-Kkabk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div id="tintucright">
+				<div class="hinh">
+					<a href="#"><img class="dong" src="../img/tintuc1.jpg" width="150" height="150"></a>
+				</div>
+				<div class="vb">
+					<a class="lk" href="http://kenh14.vn/sieu-pham-sneaker-g-dragon-x-nike-co-toi-3-phien-ban-ban-gioi-han-tai-han-da-bay-mau-chi-trong-1-ngay-20191109121228691.chn">
+						<p class="ttuc">Tin tức 1</p>
+					</a>
+					<p class="vban">Siêu phẩm sneaker G-Dragon x Nike: Có tới 3 phiên bản, bản giới hạn tại Hàn đã "bay màu" chỉ trong 1 ngày</p>
+				</div>
+				<div class="hinh">
+					<a href="#"><img class="dong" src="../img/tintuc2.jpg" width="150" height="150"></a>
+				</div>
+				<div class="vb">
+					<a class="lk" href="http://kenh14.vn/sieu-pham-yeezy-may-trang-chuan-bi-mo-ban-tai-ha-noi-hang-tram-dau-giay-xep-hang-lay-so-tu-truoc-2-ngay-20190919214509108.chn"><p class="ttuc">Tin tức 2</p></a>
+					<p class="vban">Siêu phẩm Yeezy "Mây Trắng" chuẩn bị mở bán tại Hà Nội, hàng trăm "đầu giày" xếp hàng lấy số từ trước 2 ngày</p>
+				</div>
+				<div class="hinh">
+					<a href="#"><img class="dong" src="../img/tintuc3.jpg" width="150" height="150"></a>
+				</div>
+				<div class="vb">
+					<a class="lk" href="http://kenh14.vn/review-can-canh-doi-adidas-lam-tu-rac-thai-dai-duong-da-co-mat-tai-viet-nam-dep-nhe-va-de-ngoai-sieu-ben-20170512170026539.chn">
+					<p class="ttuc">Tin tức 3</p>
+					</a>
+					<p class="vban">Review cận cảnh đôi adidas làm từ rác thải đại dương đã có mặt tại Việt Nam: đẹp - nhẹ và đế ngoài siêu bền</p>
+				</div>
+			</div>
+		</div>
+    </div>
+	</article>
+	<footer>		
+		<div id="left">
+			<ul>
+				<a href="#"><li>THÔNG TIN</li></a>
+				<a href="#"><li>Quy chế hoạt động</li></a>
+				<a href="#"><li>Điều khoản mua bán</li></a>
+				<a href="#"><li>Tuyển dụng</li></a>
+			</ul>
+		</div>
+		<div id="mid">
+			<ul>
+				<a href="#"><li>FAQ</li></a>
+				<a href="#"><li>Vận chuyển</li></a>
+				<a href="#"><li>Chính sách đổi trả</li></a>
+				<a href="#"><li>Chính sách bán hàng</li></a>
+			</ul>
+		</div>
+		<div id="right">
+			<a href="#"><img src="../img/facebook.png" width="32" height="32"></a>
+			<a href="#"><img src="../img/email.png" width="32" height="32"></a>
+            <a href="#"><img src="../img/twitter.png" width="32" height="32"></a>
+			<a href="#"><img src="../img/linkedin.png" width="32" height="32"></a>
+		</div>
+		<hr>
+		<p>Facebook
+Copyright © SNEAKER. All rights reserved. Designed by HM
+
+</p>
+	</footer>
+</body>
+</html>
